@@ -42,39 +42,39 @@
 
 
 //=========== Skaičių suma: x ===========
-// var skaiciuMasyvas = [23, 12, 564, 78, 10]
+var skaiciuMasyvas = [23, 12, 564, 78, 10]
 
-// var sum =0;
+var sum =0;
 
-// skaiciuMasyvas.forEach( num => {
-//   sum += num;
-// })
+skaiciuMasyvas.forEach( num => {
+  sum += num;
+})
 
-// console.log(sum)
+console.log(sum)
 
 //=========== Skaičių vidurkis: x ===========
 
-// var skaiciuMasyvas = [23, 12, 564, 78, 10]
+var skaiciuMasyvas = [23, 12, 564, 78, 10]
 
-// const sum = skaiciuMasyvas. reduce((a, b) => a + b, 0); 
+const sum = skaiciuMasyvas. reduce((a, b) => a + b, 0); 
 
-// const average = (sum / skaiciuMasyvas. length) || 0;
+const average = (sum / skaiciuMasyvas. length) || 0;
 
-// console.log(average)
+console.log(average)
 
 
 //=========== Didžiausias skaičius: x ===========
 
-// var skaiciuMasyvas = [23, 12, 564, 78, 10]
+var skaiciuMasyvas = [23, 12, 564, 78, 10]
 
-// const max = Math.max(...skaiciuMasyvas);
+const max = Math.max(...skaiciuMasyvas);
 
-// console.log(max)
+console.log(max)
 
 //=========== Mažiausias skaičius: x ===========
 
-// var skaiciuMasyvas = [23, 12, 564, 78, 10]
+var skaiciuMasyvas = [23, 12, 564, 78, 10]
 
-// const min = Math.min(...skaiciuMasyvas);
+const min = Math.min(...skaiciuMasyvas);
 
-// console.log(min)
+console.log(min)
