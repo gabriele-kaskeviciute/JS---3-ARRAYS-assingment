@@ -15,13 +15,13 @@
 
 
 
-var names = ["Jon Snow", "Cersei Lannister", "Daenerys Targaryen", "Theon Greyjoy", "Tyrion Lannister", "Arya Stark"];
+// var names = ["Jon Snow", "Cersei Lannister", "Daenerys Targaryen", "Theon Greyjoy", "Tyrion Lannister", "Arya Stark"];
 
-console.log(names[0])
-console.log(names[names.length - 1])
+// console.log(names[0])
+// console.log(names[names.length - 1])
 
-var numberSelection = prompt("Įveskite skaičių nuo 1 iki 6")
-console.log(i = numberSelection)
+// var numberSelection = prompt("Įveskite skaičių nuo 1 iki 6")
+// console.log(i = numberSelection)
 
 
 // Antra užduotis
@@ -37,8 +37,16 @@ console.log(i = numberSelection)
 // Kad surasti sumą - panaudokite for / while ciklą. To pačio ciklo viduje taip pat galite ieškoti didžiausio/mažiausio skaičiaus ir jį saugoti.
 
 
-var skaiciuMasyvas = ["23", "12", "564", "78", "10"]
+var skaiciuMasyvas = [23, 12, 564, 78, 10]
 
-var skaiciuSuma = d3.sum(skaiciuMasyvas);
-console.lot(skaiciuSuma)
+var sum =0;
+
+
+
+skaiciuMasyvas.forEach( num => {
+  sum += num;
+})
+
+console.log(sum)
+
 
